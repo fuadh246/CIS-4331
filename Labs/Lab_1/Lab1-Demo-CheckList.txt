@@ -1,0 +1,21 @@
+Lab 1 Demo
+Check List
+
+Please show 
+
+1. (25 points) Downloaded and installed Oracle SQL Developer
+
+2. (25 points) Created a Connection to CIS Oracle Database Server in Oracle SQL Developer
+
+3. (25 points) Created all tables in the course databases
+   Practice: tables in users ap, ex, om
+   Lab:      tables in user mgs
+   Univ:     tables in user uv
+   Of course you will not have these users. 
+   All tables are in your own oracle account.
+
+
+4. (25 points) Showed that your are able to do the following:
+   1) View the column definitions and data in a table
+   2) Open a SQL worksheet window, enter, run, and save a SQL statement in a sql script file.
+   3) Open, edit, run, and save a sql script file
