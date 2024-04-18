@@ -1,0 +1,158 @@
+
+PRODUCT_ID PRODUCT_NAME                                                                                                                                                                                                                                                    DISCOUNT_PERCENT
+---------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------
+         5 Washburn D10S                                                                                                                                                                                                                                                                  0
+        10 Tama 5-Piece Drum Set with Cymbals                                                                                                                                                                                                                                            15
+         8 Hofner Icon                                                                                                                                                                                                                                                                   25
+         1 Fender Stratocaster                                                                                                                                                                                                                                                           30
+         2 Gibson Les Paul                                                                                                                                                                                                                                                               30
+         7 Fender Precision                                                                                                                                                                                                                                                              30
+         9 Ludwig 5-piece Drum Set with Cymbals                                                                                                                                                                                                                                          30
+         4 Yamaha FG700S                                                                                                                                                                                                                                                                 38
+         6 Rodriguez Caballero 11                                                                                                                                                                                                                                                        39
+         3 Gibson SG                                                                                                                                                                                                                                                                     52
+
+10 rows selected. 
+
+
+Customer Name                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------
+Sherwood, Allan
+Hernandez, Gary
+Goldstein, David
+Esway, Heather
+Brown, Christine
+
+
+PRODUCT_CO DISCOUNT_PERCENT DATE_ADDE
+---------- ---------------- ---------
+hofner                   25 30-JUL-12
+ludwig                   30 30-JUL-12
+precision                30 01-JUN-12
+les_paul                 30 05-DEC-11
+strat                    30 30-OCT-11
+
+
+PRODUCT_NAME||'WAS'||LIST_PRICE||',NOWIS'||(LIST_PRICE-(LIST_PRICE*(DISCOUNT_PERCENT/100)))                                                                                                                                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tama 5-Piece Drum Set with Cymbals was 799.99, now is 679.9915
+Ludwig 5-piece Drum Set with Cymbals was 699.99, now is 489.993
+Fender Stratocaster was 699, now is 489.3
+
+
+   ITEM_ID ITEM_PRICE DISCOUNT_AMOUNT TOTAL_PRICE_BEFORE_DISCOUNT TOTAL_DISCOUNT_AMOUNT
+---------- ---------- --------------- --------------------------- ---------------------
+         3       2517         1308.84                        2517               1308.84
+         5       1199           359.7                        2398                 719.4
+
+
+  ORDER_ID CUSTOMER_ID ORDER_DAT SHIP_AMOUNT
+---------- ----------- --------- -----------
+         6           5 31-MAR-12           5
+         8           7 02-APR-12           5
+         9           4 03-APR-12           5
+
+
+GREETING                   
+---------------------------
+Hello! Today is Jan-30-2024
+
+
+PRICE_BEFORE_TAX   TAX_RATE TAX_AMOUNT PRICE_AFTER_TAX
+---------------- ---------- ---------- ---------------
+          799.99        .08    63.9992        863.9892
+
+
+PRODUCT_ID ITEM_PRICE DISCOUNT_AMOUNT
+---------- ---------- ---------------
+         3       2517         1308.84
+         2       1199           359.7
+         7     799.99             240
+        10     799.99             120
+         9     699.99             210
+         1        699           209.7
+         4     489.99           186.2
+         6        415          161.85
+         5        299               0
+
+9 rows selected. 
+
+
+PRODUCT_ID PRODUCT_NAME                                                                                                                                                                                                                                                    DISCOUNT_PERCENT
+---------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------
+         5 Washburn D10S                                                                                                                                                                                                                                                                  0
+        10 Tama 5-Piece Drum Set with Cymbals                                                                                                                                                                                                                                            15
+         8 Hofner Icon                                                                                                                                                                                                                                                                   25
+         1 Fender Stratocaster                                                                                                                                                                                                                                                           30
+         2 Gibson Les Paul                                                                                                                                                                                                                                                               30
+         7 Fender Precision                                                                                                                                                                                                                                                              30
+         9 Ludwig 5-piece Drum Set with Cymbals                                                                                                                                                                                                                                          30
+         4 Yamaha FG700S                                                                                                                                                                                                                                                                 38
+         6 Rodriguez Caballero 11                                                                                                                                                                                                                                                        39
+         3 Gibson SG                                                                                                                                                                                                                                                                     52
+
+10 rows selected. 
+
+
+Customer Name                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------
+Sherwood, Allan
+Hernandez, Gary
+Goldstein, David
+Esway, Heather
+Brown, Christine
+
+
+PRODUCT_CO DISCOUNT_PERCENT DATE_ADDE
+---------- ---------------- ---------
+hofner                   25 30-JUL-12
+ludwig                   30 30-JUL-12
+precision                30 01-JUN-12
+les_paul                 30 05-DEC-11
+strat                    30 30-OCT-11
+
+
+PRODUCT_NAME||'WAS'||LIST_PRICE||',NOWIS'||(LIST_PRICE-(LIST_PRICE*(DISCOUNT_PERCENT/100)))                                                                                                                                                                                                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tama 5-Piece Drum Set with Cymbals was 799.99, now is 679.9915
+Ludwig 5-piece Drum Set with Cymbals was 699.99, now is 489.993
+Fender Stratocaster was 699, now is 489.3
+
+
+   ITEM_ID ITEM_PRICE DISCOUNT_AMOUNT TOTAL_PRICE_BEFORE_DISCOUNT TOTAL_DISCOUNT_AMOUNT
+---------- ---------- --------------- --------------------------- ---------------------
+         3       2517         1308.84                        2517               1308.84
+         5       1199           359.7                        2398                 719.4
+
+
+  ORDER_ID CUSTOMER_ID ORDER_DAT SHIP_AMOUNT
+---------- ----------- --------- -----------
+         6           5 31-MAR-12           5
+         8           7 02-APR-12           5
+         9           4 03-APR-12           5
+
+
+GREETING                   
+---------------------------
+Hello! Today is Jan-30-2024
+
+
+PRICE_BEFORE_TAX   TAX_RATE TAX_AMOUNT PRICE_AFTER_TAX
+---------------- ---------- ---------- ---------------
+          799.99        .08    63.9992        863.9892
+
+
+PRODUCT_ID ITEM_PRICE DISCOUNT_AMOUNT
+---------- ---------- ---------------
+         3       2517         1308.84
+         2       1199           359.7
+         7     799.99             240
+        10     799.99             120
+         9     699.99             210
+         1        699           209.7
+         4     489.99           186.2
+         6        415          161.85
+         5        299               0
+
+9 rows selected. 
+

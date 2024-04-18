@@ -1,0 +1,107 @@
+
+Lab 6 More Hints
+
+
+1.
+subquery:
+  print ids of categories that appear in products table
+
+main query:
+  print names of categories that are returned by subquery
+
+
+See Q1 in practice.
+
+-------
+2.
+
+subquery:
+  get the average actual price of all products.
+
+main query:
+  print name, actual price of products whose actual prices
+     are more than what's returned by subquery.
+
+
+Need ORDER BY
+Use column alias for actual price.
+
+See Q2 in practice
+
+
+--------
+3.
+
+subquery:
+  print ids of categories that appear in products table
+
+main query:
+  print ids, names of categories that are not 
+     in (result set of subquery)
+
+
+See Q3 in practice
+
+--------
+4.
+
+subquery:
+   print ids, codes, names, and actual prices of products 
+        in descreasing order of actual prices
+
+main query:
+   use ROWNUM to select at most 3 rows.
+
+See Q5 in practice
+
+--------
+5.
+
+subquery:
+   print ids, codes, product names, category names and actual prices of products 
+        in descreasing order of actual prices;
+   need to join products and categories tables
+
+main query:
+   use ROWNUM to select at most 3 rows.
+
+See Q5 in practice
+
+--------
+6.
+
+subquery:
+    for each category, print category id and product counts 
+         in decreasing order of product counts.
+    need GROUP BY.
+
+main query:
+   use ROWNUM to select at most 3 rows.
+
+Q5 in practice
+
+
+--------
+7.
+
+subquery:
+   for each discount percent, count how many products with such a discount,
+    print the discount precentage with the product count being 1.
+   need GROUP BY, and HAVING
+
+main query:
+   print name and discount precentage of products whose discount percentage
+         is returned by subquery
+   need operator IN
+
+----------
+8.
+
+--first query
+   GROUP BY  the email_address and order_id columns,
+   calculate the order total of items in each group.
+   no need subquery.
+
+--second query
+   use the first query in FROM clause
+   GROUP BY email_address, get the maximum of order total
